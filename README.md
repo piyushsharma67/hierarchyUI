@@ -32,6 +32,7 @@ export default {
 
 In order to run the project
 - use dev script inside the package.json
+- project will start running on http://localhost:5173/
 
 Currently inside the project 
 
