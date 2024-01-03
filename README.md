@@ -28,3 +28,13 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+In order to run the project
+- use dev script inside the package.json
+
+Currently inside the project 
+
+- there is a search bar but due to time constraint i didnt debugged the search employee method
+- you could edit a particular employee
+
