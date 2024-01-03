@@ -72,9 +72,9 @@ const recursivelyUpdateEmployee = (employees: TEmployee[], targetId: number, new
             // Update the details for the employee with the target ID
             return {
                 ...employee,
-                name: newName,
-                email: newEmail,
-                phone: newPhone
+                name: newName ? newName : employee.name,
+                email: newEmail ? newEmail : employee.email,
+                phone: newPhone ? newPhone : employee.phone
             };
         }
 
