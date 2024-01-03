@@ -31,6 +31,7 @@ export default {
 
 
 In order to run the project
+- run yarn to install node modules
 - use dev script inside the package.json
 - project will start running on http://localhost:5173/
 
