@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width:100%;
+    border-width: 4px;
+    border-color: white;
+    width:100%;
+    flex-direction: column;
+    margin:10px 0px
+}
+
+.tagContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 4px 0px;
+}
+.buttonStyle{
+    padding:0;
+    width:90px
+}
+
+.tags{
+    padding:8px
+}
+
+.input{
+    margin:4px 0px
+}

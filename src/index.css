@@ -1,0 +1,11 @@
+@font-face {
+  font-family: Inter;
+  src: url('./assets/font/Inter.ttf');
+}
+
+* {
+  font-family: "Inter";
+  box-sizing: border-box;
+}
+
+
